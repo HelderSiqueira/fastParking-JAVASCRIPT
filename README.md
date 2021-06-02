@@ -2,7 +2,7 @@
 
 ## Projeto não finalizado ⚠️
 
->Esse é um projeto web do curso técnico de desenvolvimento de sistemas da escola Senai Prof. Vicente Amato construído para o controle de estacionamento(s) da FastParking, uma empresa fictícia.
+>Esse é um projeto web do curso técnico de desenvolvimento de sistemas da escola Senai Prof. Vicente Amato, construído para o controle de estacionamento(s) da FastParking, uma empresa fictícia.
 
 ## Tecnologias utilizadas
 
