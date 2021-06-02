@@ -2,7 +2,7 @@
 
 ## Projeto não finalizado ⚠️
 
-Esse é um projeto web construído para o controle de estacionamento(s) da FastParking, uma empresa fictícia.
+>Esse é um projeto web construído para o controle de estacionamento(s) da FastParking, uma empresa fictícia.
 
 ## Tecnologias utilizadas
 
@@ -16,7 +16,7 @@ Esse é um projeto web construído para o controle de estacionamento(s) da FastP
 
 ## Autor
 
-Hélder Siqueira
+>Hélder Siqueira
 
 https://www.linkedin.com/in/heldersiqueira
 
