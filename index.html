@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Parking</title>
+    <link rel="shortcut icon" href="img/flavicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<!--Cabecalho do site (Logo)-->
+<header>
+    <div id="containerCabecalho">
+        <h1 id="tituloSite">Sistema FastParking</h1>
+        <img id="logoSite" src="img/logo.png"/>
+    </div>
+</header>
+<body>
+    <!--Controle - entrada e saida de clientes-->
+    <form>
+        <h3>Nome:</h3>
+        <input type="text" placeholder="Informe o nome do cliente..."/>
+        <h3>Placa:</h3>
+        <input type="text" placeholder="Informe a placa do carro..."/>
+        <div id="areaButtons">
+            <button id="adicionar">Adicionar</button>
+            <button id="preco">Preços</button>
+        </div>
+    </form>
+    <!--Tabela mostrando o resultado de clientes ja cadastrados-->
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Placa</th>
+                <th>Data</th>
+                <th>Hora</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="clientesCadastrados">
+            <tr>
+                <th>Maria da Silva</th>
+                <th>ABC-1234</th>
+                <th>12/11/2018</th>
+                <th>14:00</th>
+                <th>
+                    <button id="comp">Comp</button>
+                    <button id="editar">Editar</button>
+                    <button id="saida">Saída</button>
+                </th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
