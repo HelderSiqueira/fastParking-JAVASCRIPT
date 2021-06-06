@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastParking</title>
+    <link rel="shortcut icon" href="img/flavicon.png">
+    <link rel="stylesheet" href="css/comprovante.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <header>
+        <div id="containerCabecalho">
+            <h1 id="tituloSite">Sistema <font color ="#0b5284">Fast</font><font color="#dbc403">Parking</font></h1>
+            <img id="logoSite" src="img/logo.png"/>
+        </div>
+    </header>
+    <form id="comprovanteCadastro">
+        <div id="tituloComprovante">
+            <h2>Comprovante</h2>
+        </div>
+        <div id="areaDados">
+            <div class="dadosComprovante"> 
+                <label>Nome:</label>
+                <input type="text" readonly/>
+            </div>
+            <div class="dadosComprovante">
+                <label>Placa:</label>
+                <input type="text" readonly/>
+            </div>
+            <div class="dadosComprovante">
+                <label>Data:</label>
+                <input type="text" readonly/>
+            </div>
+            <div class="dadosComprovante">
+                <label>Hora:</label>
+                <input type="text" readonly/>
+            </div>
+        </div>
+        <div>
+            <div id="areaButtons">
+                <input type="submit" value="Imprimir" id="imprimir"/>
+                <input type="submit" value="Cancelar" id="cancelar"/>
+            </div>
+        </div>
+    </form> 
+</body>
+</html>

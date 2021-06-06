@@ -1,0 +1,97 @@
+#comprovanteCadastro{
+    width: 500px;
+    height: 375px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tituloComprovante{
+    width: 498px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+}
+
+#areaDados{
+    width: 350px;
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.dadosComprovante{
+    width: 310px;
+    height: 50px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.dadosComprovante label{
+    font-size: 18px;
+    width: 60px;
+    height: 25px;
+    float: left;
+}
+
+.dadosComprovante input[type=text]{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+    padding-left: 10px;
+    width: 245px;
+    height: 25px;
+    float: right;
+}
+
+#areaButtons{
+    width: 300px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+#imprimir{
+    width: 80px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(57, 168, 233);
+    font-size: 15px;
+    color: white;
+    margin-left: 50px;
+    float: left;
+}
+
+#imprimir:hover{
+    cursor: pointer;
+    color: rgb(57, 168, 233);
+    border: 1px solid rgb(57, 168, 233);
+    background-color: white;
+}
+
+#cancelar{
+    width: 80px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(247, 96, 96);
+    font-size: 15px;
+    color: white;
+    margin-right: 50px;
+    float: right;
+}
+
+#cancelar:hover{
+    cursor: pointer;
+    color: rgb(247, 96, 96);
+    border: 1px solid rgb(247, 96, 96);
+    background-color: white;
+}

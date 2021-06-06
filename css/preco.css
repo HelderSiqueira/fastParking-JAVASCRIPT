@@ -1,0 +1,96 @@
+#precoCadastro{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tituloPreco{
+    width: 498px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+}
+
+#areaHoras{
+    width: inherit;
+    height: 150px;
+}
+
+.inserirHoras{
+    width: 350px;
+    height: 55px;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.inserirHoras label{
+    font-size: 18px;
+    width: 125px;
+    height: 25px;
+    float: left;
+}
+
+.inserirHoras input[type=text]{
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 17px;
+    padding-left: 10px;
+    width: 220px;
+    height: 25px;
+    float: right;
+}
+
+#areaButtons{
+    width: 300px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+#salvar{
+    width: 80px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(117, 235, 101);
+    font-size: 15px;
+    color: white;
+    margin-left: 50px;
+    float: left;
+}
+
+#salvar:hover{
+    cursor: pointer;
+    color: rgb(117, 235, 101);
+    border: 1px solid rgb(117, 235, 101);
+    background-color: white;
+}
+
+#cancelar{
+    width: 80px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(247, 96, 96);
+    font-size: 15px;
+    color: white;
+    margin-right: 50px;
+    float: right;
+}
+
+#cancelar:hover{
+    cursor: pointer;
+    color: rgb(247, 96, 96);
+    border: 1px solid rgb(247, 96, 96);
+    background-color: white;
+}

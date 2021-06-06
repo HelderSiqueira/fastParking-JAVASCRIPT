@@ -1,40 +1,4 @@
-/*Estilizacao cabecalho*/
-
-header{
-    width: 100vw;
-    height: 200px;
-}
-
-#containerCabecalho{
-    width: 800px;
-    height: 200px;
-    display: flex;
-    margin: auto;
-}
-
-#tituloSite{
-    font-size: 35px;
-    font-weight: bold;
-    line-height: 200px;
-    color: #2b3035;
-    margin-left: auto;
-    margin-right: auto;
-    float: left;
-}
-
-#logoSite{
-    width: 175px;
-    height: 100px;
-    margin-top: 50px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    float: right;
-}
-
-/*Estilizacao formulario*/
-
-form{
+#cadastroCliente{
     width: 500px;
     height: 250px;
     border: 2px solid #2b3035;
@@ -42,17 +6,18 @@ form{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 20px;
     padding-left: 100px;
 }
 
-form h3{
-    font-size: 20px;
+#cadastroCliente h3{
+    font-weight: normal;
+    font-size: 18px;
     padding-bottom: 10px;
 }
 
-form input[type=text]{
+#cadastroCliente input[type=text]{
     width: 300px;
     height: 30px;
     border: 2px solid #2b3035;
@@ -80,6 +45,13 @@ form input[type=text]{
     float: left;
 }
 
+#adicionar:hover{
+    cursor: pointer;
+    color: rgb(57, 168, 233);
+    border: 1px solid rgb(57, 168, 233);
+    background-color: white;
+}
+
 #preco{
     width: 80px;
     height: 40px;
@@ -92,38 +64,13 @@ form input[type=text]{
     float: right;
 }
 
-#areaButtons button:hover{
+#preco:hover{
     cursor: pointer;
-    border: 0;
-    font-weight: bold;
-}
-
-/*Estilizacao area de cadastrados*/
-
-table{
-    width: 1100px;
-    background-color: black;
-    border-radius: 2px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-table th{
-    width: 210px;
-    height: 50px;
-    font-weight: bold;
-    color: white;
-    background-color: #2b3035;
-}
-
-#clientesCadastrados th{
-    width: inherit;
-    height: 50px;
-    font-size: 14px;
-    color: black;
+    color: rgb(117, 235, 101);
+    border: 1px solid rgb(117, 235, 101);
     background-color: white;
-    padding: 5px;
 }
+
 #comp{
     width: 65px;
     height: 35px;
@@ -131,6 +78,13 @@ table th{
     background-color: rgb(117, 235, 101);
     border: 0;
     border-radius: 5px;
+}
+
+#comp:hover{
+    cursor: pointer;
+    color: rgb(117, 235, 101);
+    border: 1px solid rgb(117, 235, 101);
+    background-color: white;
 }
 
 #editar{
@@ -142,6 +96,13 @@ table th{
     border-radius: 5px;
 }
 
+#editar:hover{
+    cursor: pointer;
+    color: rgb(57, 168, 233);
+    border: 1px solid rgb(57, 168, 233);
+    background-color: white;
+}
+
 #saida{
     width: 65px;
     height: 35px;
@@ -151,9 +112,11 @@ table th{
     border-radius: 5px;
 }
 
-#clientesCadastrados button:hover{
+#saida:hover{
     cursor: pointer;
-    border: 0;
-    font-weight: bold;
+    color: rgb(247, 96, 96);
+    border: 1px solid rgb(247, 96, 96);
+    background-color: white;
 }
+
 
