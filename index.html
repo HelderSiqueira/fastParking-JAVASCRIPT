@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastParking</title>
+    <link rel="shortcut icon" href="img/flavicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+    <header>
+        <div id="containerCabecalho">
+            <h1 id="tituloSite">Sistema <font color ="#0b5284">Fast</font><font color="#dbc403">Parking</font></h1>
+            <img id="logoSite" src="img/logo.png"/>
+        </div>
+    </header>
+    <div id="cadastroCliente">
+        <h3>Nome:</h3>
+        <input type="text" placeholder="Informe o nome do cliente..."/>
+        <h3>Placa:</h3>
+        <input type="text" placeholder="Informe a placa do carro..."/>
+        <div id="areaButtons">
+            <input type="submit" value="Adicionar" id="adicionar"/>
+            <input type="submit" value="Preço" id="preco"/>
+        </div>
+    </div>
+    <table class="table" id="tabelaClientes">
+        <thead>
+            <tr>
+                <th>Valor</th>
+                <th>Nome</th>
+                <th>Placa</th>
+                <th>Data</th>
+                <th>Hora</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td>R$ 16,60</td>
+            <td>Hélder Siqueira</td>
+            <td>AAA-2222</td>
+            <td>02/04/2002</td>
+            <td>20:30</td>
+            <td>
+                <button>Comp</button>
+                <button>Editar</button>
+                <button>Saida</button>
+            </td>
+        </tbody>
+    </table>
+    <div id="modalPreco" class="modalContainer">
+        <div class="modal">
+            <form id="precoCadastro">
+                <div id="tituloPreco">
+                    <h2>Preços</h2>
+                </div>
+                <div id="areaHoras">
+                    <div class="inserirHoras">
+                        <label>Primeira hora:</label>
+                        <input type="text" placeholder="Primeira hora..."/>
+                    </div>
+                    <div class="inserirHoras">
+                        <label>Demais horas:</label>
+                        <input type="text" placeholder="Demais horas..."/>
+                    </div>
+                </div>
+                <div id="areaButtons">
+                    <input type="submit" value="Salvar" id="salvar"/>
+                    <input type="submit" value="Cancelar" id="cancelar"/>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
+<!--
+    <input id="comp" type="submit" value="Comp"/>
+    <input id="editar" type="submit" value="Editar"/>
+    <input id="saida" type="submit" value="Saída"/>     
+-->
+    

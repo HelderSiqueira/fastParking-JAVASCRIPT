@@ -12,7 +12,7 @@
 
 ## Clique no link abaixo para testar o projeto
 
-https://heldersiqueira.github.io/fastParking-JAVASCRIPT/cadastro.html
+https://heldersiqueira.github.io/fastParking-JAVASCRIPT/
 
 ## Autor
 
