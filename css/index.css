@@ -1,28 +1,29 @@
 #cadastroCliente{
     width: 500px;
     height: 250px;
-    border: 2px solid #2b3035;
+    border: 2px solid black;
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 100px;
     padding-top: 25px;
     padding-bottom: 20px;
-    padding-left: 100px;
 }
 
 #cadastroCliente h3{
     font-weight: normal;
     font-size: 18px;
     padding-bottom: 10px;
+    margin-left: 100px;
 }
 
 #cadastroCliente input[type=text]{
     width: 300px;
     height: 30px;
-    border: 2px solid #2b3035;
+    border: 2px solid black;
     border-radius: 5px;
     font-size: 15px;
+    margin-left: 100px;
     margin-bottom: 15px;
     padding-left: 10px;
 }
@@ -118,5 +119,42 @@
     border: 1px solid rgb(247, 96, 96);
     background-color: white;
 }
+
+.table {
+    text-align: left;
+    user-select: none;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table thead {
+    height: 50px;
+    color: white;
+    background-color: #0b5284;
+}
+
+.table thead th,
+.table tbody td {
+    height: 50px;
+    padding: 0 20px;
+}
+.table tbody td {
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table thead th:last-child,
+.table tbody td:last-child{
+    min-width: 250px;
+    text-align: center;
+}
+
+.table tr:hover{
+    background-color: #00000020;
+}
+
+
+
 
 
